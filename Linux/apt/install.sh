@@ -76,8 +76,7 @@ sudo apt update && sudo apt upgrade -y
 echo "Updating And Upgrading Done"
 
 echo "Installing Python-3"
-wget http://ftp.cn.debian.org/debian/pool/main/p/python3-defaults/python3_3.7.3-1_amd64.deb
-sudo apt install ./python3_3.7.3-1_amd64.deb
+sudo apt install python3
 echo "Python-3 Installation Complete"
 
 echo "Checking Python-3"
